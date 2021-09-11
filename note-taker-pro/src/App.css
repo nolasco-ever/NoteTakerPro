@@ -14,4 +14,13 @@
   font-size: 1.5vw;
 }
 
+.textFooter {
+  font-size: 1vw;
+}
+
+.footer-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=App.css.map */
