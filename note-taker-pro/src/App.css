@@ -3,6 +3,8 @@
   background: linear-gradient(90deg, #342ead 0%, #2e68ad 100%);
   height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .navBar {
@@ -21,6 +23,35 @@
 .footer-container {
   margin-left: auto;
   margin-right: auto;
+}
+
+.landingPageContainer {
+  display: flex;
+  flex-grow: 1;
+}
+.landingPageContainer .graphicsContainer {
+  flex: 2;
+}
+.landingPageContainer .graphicsContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.landingPageContainer .graphicsContainer div img {
+  height: 54.35vh;
+  width: 51.458vw;
+}
+.landingPageContainer .graphicsContainer div p {
+  color: #fff;
+  margin-top: 5vh;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.landingPageContainer .pageFormsContainer {
+  flex: 1;
+  background-color: orange;
 }
 
 /*# sourceMappingURL=App.css.map */
